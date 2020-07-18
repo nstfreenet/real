@@ -238,7 +238,7 @@ sed -i '$ i\echo "nameserver 8.8.4.4" >> /etc/resolv.conf' /etc/rc.local
 sed -i '$ i\iptables-restore < /etc/iptables.up.rules' /etc/rc.local
 
 # Configure menu
-wget https://raw.githubusercontent.com/Vpsee00/nine9/master/menu
+wget https://raw.githubusercontent.com/nstfreenet/nine9/master/menu
 chmod +x menu
 ./menu
 
